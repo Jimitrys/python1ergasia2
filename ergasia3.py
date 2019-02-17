@@ -1,8 +1,10 @@
 # -*-coding:utf-8-*-
 import sys
 import os
+#για επανάληψη του προγράμματος
 play = True
 while play == True:
+    
     def main():
         f = raw_input("Δώστε το όνομα του αρχείου: ")
         if os.path.isfile(f):
@@ -27,7 +29,9 @@ while play == True:
             print "Τα σχόλια διαγράφηκαν επιτυχώς!"
         else:
             print "Το αρχείο που δώσατε δεν υπάρχει."
+            
     main()
+    #για επανάληψη η παύση του προγράμματος
     stop = raw_input("Πατήστε R για επανάληψη ή X για έξοδο: ").capitalize()
     if stop == "R":
         play = True
