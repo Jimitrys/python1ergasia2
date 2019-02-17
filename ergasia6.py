@@ -1,8 +1,10 @@
 # -*-coding:utf-8-*-
 import sys
 import random
+#για την επανάληψη του προγράμματος
 play = True
 while play == True:
+    
     def main():
         rows = input("Δώστε αριθμό σειρών: ")
         cols = input("Δώστε αριθμό στήλων: ")
