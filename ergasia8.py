@@ -3,9 +3,10 @@ import tweepy
 from tweepy import OAuthHandler
 import os
 import sys
-
+#για επαναληψη του προγράμματος
 play = True
 while play == True:
+    
     def load_api():
 
         consumer_key = 'Ezfthtgor0eq8pwPg91i1b8PU'
@@ -62,7 +63,7 @@ while play == True:
             print "\n\nΚαι οι δύο λογαριασμοί έχουν το ίδιο γινόμενο λέξεων επι followers."
 
     main()
-
+    #για επανάληψη η παύση του προγράμματος
     stop = raw_input("Πατήστε R για επανάληψη ή X για έξοδο: ").capitalize()
     if stop == "R":
         play = True
