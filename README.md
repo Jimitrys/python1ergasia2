@@ -1,2 +1,2 @@
-# python1ergasia2
+# python1ergasies
 εργασιες στην Python 1ου Εξαμήνου
